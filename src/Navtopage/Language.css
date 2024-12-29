@@ -1,0 +1,62 @@
+.language-selector {
+	font-family: Arial, sans-serif;
+	color: #333;
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+.header-title {
+	font-size: 1.2rem;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.header-subtitle {
+	font-size: 0.9rem;
+	color: #666;
+	margin-bottom: 15px;
+}
+
+.language-input {
+	padding: 10px;
+	font-size: 1rem;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background-color: #f9f9f9;
+	outline: none;
+}
+
+.language-input:focus {
+	border-color: #007bff;
+	box-shadow: 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
+.language-dropdown-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	max-height: 200px;
+	overflow-y: auto;
+	background: #fff;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.language-dropdown-item {
+	padding: 10px;
+	font-size: 0.9rem;
+	cursor: pointer;
+}
+
+.language-dropdown-item:hover {
+	background-color: #f0f0f0;
+}
+
+.selected-language {
+	margin-top: 10px;
+	font-size: 1rem;
+	color: #333;
+	font-weight: bold;
+}
